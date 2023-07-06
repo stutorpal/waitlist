@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Stutorpal Landing Page</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+
+   
+    <!-- Swiper slider-->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css" />
+    <!-- Modal Video-->
+    <link rel="stylesheet" href="vendor/modal-video/css/modal-video.min.css" />
+    <!-- Google fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nunito:400,600,800&amp;display=swap"
+    />
+    <!-- Device Mockup-->
+    <link rel="stylesheet" href="css/device-mockups.css" />
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet" />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/logo.png" />
+
+ 
+
+
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="./img/logo.png" alt="" width="75" height="75"
+          /></a>
+          <button
+            class="navbar-toggler navbar-toggler-end"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active link-scroll " href="#hero"
+                  >Main <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#waitlist">Waitlist</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+ 
+  
+    <!-- Hero Section-->
+    <section
+      class="hero bg-top py-5"
+      id="hero"
+      style="
+        background: url(img/banner-4.png) no-repeat;
+        background-size: 100% 80%;
+      "
+    >
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-5 py-5">
+            <h1>Stutorpal</h1>
+            <h4 class="my-4">
+              When trying to get the best of grades, with us you'll ace the
+              tests you take
+            </h4>
+            <h4 class="my-4">
+              The first peer-to-peer tutorship app. For students by students
+            </h4>
+            <h5 class="my-4 ">Coming soon to</h5>
+
+            <!-- <p class="my-4 text-muted">With Us You'll Ace The Tests You Take</p> -->
+
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mb-2 mb-lg-0 " >
+                <a class="btn btn-primary btn-lg px-4" style="background-color: #3673E6"  href="#!">
+                  <i class="fab fa-google-play me-3"></i>Google Play</a
+                >
+              </li>
+              <li class="list-inline-item mt-1">
+                <a class="btn btn-primary btn-lg px-4 " href="#!" style="background-color: #3673E6">
+                  <i class="fab fa-app-store me-3"></i>App Store</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 ml-auto">
+            <div class="device-wrapper mx-auto">
+              <div
+                class="device shadow"
+                data-device="iPhoneX"
+                data-orientation="portrait"
+                data-color="black"
+              >
+                <div class="screen">
+                  <img class="img-fluid" src="img/App-Snapshot.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="bg-center py-0"
+      id="about"
+      style="
+        background: url(img/service-bg.svg) no-repeat;
+        background-size: cover;
+      "
+    >
+      <section class="about py-0">
+        <div class="container">
+          <p class="h6 text-uppercase " style="color: #3673E6;">What is it all about?</p>
+          <h2 class="mb-5">
+            Stutorpal is a platform to connect, learn and earn!
+          </h2>
+          <div class="row pb-5 gy-4">
+            <div class="col-lg-4 col-md-6">
+              <!-- Services Item-->
+              <div class="card border-0 shadow rounded-lg py-4 text-start">
+                <div class="card-body p-5">
+                  <!-- <svg class="svg-icon svg-icon-light" style="width:60px;height:60px;color:#ff904e">
+                    <use xlink:href="#document-saved-1"> </use>
+                  </svg> -->
+                  <div>
+                    <img
+                      class="svg-icon svg-icon-light mx-auto d-block"
+                      style="width: 200px; height: 150px"
+                      src="./img/undraw_connected_re_lmq2.svg"
+                      alt="Custom SVG Image"
+                    />
+                  </div>
+
+                  <h3 class="h4 my-4">Peer-to-Peer Connections</h3>
+                  <p class="text-sm text-muted mb-0">
+                    Our tutorship app creates a dynamic platform where students
+                    can connect with each other on campus, fostering a vibrant
+                    community of knowledge-sharing. Whether you need help with
+                    calculus, essay writing, or coding, our app enables you to
+                    find the perfect peer tutor who understands your specific
+                    needs and can provide valuable insights.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <!-- Services Item-->
+              <div class="card border-0 shadow rounded-lg py-4 text-start">
+                <div class="card-body p-5">
+                  <img
+                    class="svg-icon svg-icon-light mx-auto d-block"
+                    style="width: 200px; height: 150px"
+                    src="./img/undraw_educator_re_ju47.svg"
+                    alt="Custom SVG Image"
+                  />
+                  <h3 class="h4 my-4">Tailored Learning Experiences</h3>
+                  <p class="text-sm text-muted mb-0">
+                    With our app, learning becomes personalized and engaging.
+                    Students can choose tutors based on their expertise,
+                    teaching style, and even shared interests. This empowers
+                    learners to engage in meaningful one-on-one sessions, where
+                    they can delve deeper into subjects, ask questions freely,
+                    and gain a comprehensive understanding of the topic at hand.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <!-- Services Item-->
+              <div class="card border-0 shadow rounded-lg py-4 text-start">
+                <div class="card-body p-5">
+                  <img
+                    class="svg-icon svg-icon-light mx-auto d-block"
+                    style="width: 200px; height: 150px"
+                    src="./img/undraw_savings_re_eq4w.svg"
+                    alt="Custom SVG Image"
+                  />
+                  <h3 class="h4 my-4">
+                    Opportunity to Earn While Sharing Knowledge
+                  </h3>
+                  <p class="text-sm text-muted mb-0">
+                    We believe in empowering students not only as learners but
+                    also as tutors. With our peer-to-peer tutorship app,
+                    students have the exciting opportunity to monetize their
+                    expertise and earn money while on campus. By becoming a
+                    tutor, you can not only share your knowledge and passion but
+                    also make a meaningful income that complements your academic
+                    journey.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="about py-0" id="team">
+        <div class="container">
+          <h2 class="mb-5">
+            Meet The Team
+          </h2>
+          <div class="row pb-5 gy-4">
+            <div class="col-lg-4 col-md-6">
+              <!-- Services Item-->
+              <div class="card border-0 shadow rounded-lg py-4 text-start">
+                <div class="card-body p-5">
+                  <!-- <svg class="svg-icon svg-icon-light" style="width:60px;height:60px;color:#ff904e">
+                    <use xlink:href="#document-saved-1"> </use>
+                  </svg> -->
+                  <div>
+                    <img
+                      class="svg-icon svg-icon-light mx-auto d-block"
+                      style="width: 200px; height: 200px; border-radius: 50%;"
+                      src="./img/Chibueze.png"
+                      alt="Custom SVG Image"
+                    />
+                  </div>
+
+                  <h3 class="h4 my-4">Chibueze Onyekpere</h3>
+                  <h6 class=" mb-0">
+                    Full Stack Web Developer, Team Lead
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <!-- Services Item-->
+              <div class="card border-0 shadow rounded-lg py-4 text-start">
+                <div class="card-body p-5">
+                  <img
+                    class="svg-icon svg-icon-light mx-auto d-block"
+                    style="width: 200px; height: 200px; border-radius: 50%;"
+                    src="./img/Harrison.png"
+                    alt="Custom SVG Image"
+                  />
+                  <h3 class="h4 my-4">Harrison Akunne</h3>
+                  <h6 class="mb-0">
+                    Full-Stack Web Developer
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <!-- Services Item-->
+              <div class="card border-0 shadow rounded-lg py-4 text-start">
+                <div class="card-body p-5">
+                  <img
+                    class="svg-icon svg-icon-light mx-auto d-block"
+                    style="width: 200px; height: 200px; border-radius: 50%;"
+                    src="./img/Fiki.png"
+                    alt="Custom SVG Image"
+                  />
+                  <h3 class="h4 my-4">
+                    Fiki Joshua
+                  </h3>
+                  <h6 class="  mb-0">
+                    UI/UX Designer, Full Stack Web Developer
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </section>
+
+   
+    <section
+      class="px-3 lg-px-6"
+      id="waitlist"
+      style="
+        background: url(img/testimonials-bg.png) no-repeat;
+        background-size: 40% 100%;
+        background-position: left center;
+        
+      "
+    >
+      <div class="container mx-auto d-block card border-0 shadow rounded-lg py-4 text-start " >
+        <div class="row ">
+          <div class="mx-auto">
+            <div class="container mt-5">
+              <div class="row justify-content-center">
+                <h2 class=" mb-4">Join the Waitlist</h2>
+
+
+                <div class="">
+                  <form class="" method="POST" name="submit-to-google-sheet">
+                    <div class="form-group my-4 ">
+                      <label for="name">Name</label>
+                      <input type="text"  class="form-control" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group my-4 ">
+                      <label for="email">Nile University School Email</label>
+                      <input type="email" name="email" class="form-control" id="email" placeholder="E.g 123456789@nileuniversity.edu.ng">
+                    </div>
+                    <div class="form-group my-4 ">
+                      <label for="phone">Phone</label>
+                      <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group my-4 ">
+                      <label for="department">School Department</label>
+                      <input type="text" class="form-control" name="department" id="department" placeholder="Enter your department">
+                    </div>
+                    <div class="form-group  pt-4 ">
+                      <label for="tutor">Would You Like To Be A Tutor</label>
+                      <select name="tutor" class="form-control" id="answer">
+                        <option value="no">Select an option (Default : No )</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                      </select>
+                    </div>
+                    <div class="my-4 " ></div>
+                    <div  style="margin-top: 3rem;" class="form-group my-4 py-4 row px-2">
+                      <button type="submit" style="background-color: #3673E6"  class="btn   py-3 btn-block rounded ">Join</button>
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <a class="scroll-top-btn" id="scrollTop" href="#!"
+      ><i class="fas fa-long-arrow-alt-up"></i
+    ></a>
+    <div style="margin-top: 16rem;">
+
+    </div>
+    <footer class="with-pattern-1 mt-5 position-relative pt-5 " >
+      <div class="container py-5">
+        <div class="row gy-4  row footer-container">
+        
+          <div class="col-lg-2">
+            <h2 class="h5 mb-4">Services</h2>
+            <div class="d-flex">
+              <ul class="list-unstyled me-4 mb-0">
+                <li class="mb-2">
+                  <a class="footer-link" href="#hero">Hero</a>
+                </li>
+                <li class="mb-2">
+                  <a class="footer-link" href="#about">About</a>
+                </li>
+                <li class="mb-2">
+                  <a class="footer-link" href="#team">Team</a>
+                </li>
+                <li class="mb-2">
+                  <a class="footer-link" href="#waitlist">Waitlist</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <h2 class="h5 mb-4">Contact Info</h2>
+            <ul class="list-unstyled me-4 mb-3">
+              <li class="mb-2 text-muted">
+                Nile University, Plot 681, Cadastral Zone C, OO, Research & Institution Area <br> Airport Road, Jabi 900108, Abuja, Federal Capital Territory
+              </li>
+              
+              <li class="mb-2">
+                <a class="footer-link" href="tel:+234-90-365-59198">+234-90-365-59198</a>
+              </li>
+              <li class="mb-2">
+                <a class="footer-link" href="mailto:stutorpal@gmail.com"
+                  >Mail: stutorpal@gmail.com</a
+                >
+              </li>
+            </ul>
+            <!-- <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="social-link" href="#!"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="social-link" href="#!"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="social-link" href="#!"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="social-link" href="#!"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <div class="container text-center py-4">
+          <p class="mb-0 text-muted text-sm">
+            &copy; 2023, Stutorpal. Template by
+            <a
+              href="https://bootstrapious.com/p/app-landing-page"
+              class="text-reset"
+              >Bootstrapious</a
+            >.
+          </p>
+          <!-- If you want to remove the backlink, please purchase the Attribution-Free License. See details in readme.txt or license.txt. Thanks!-->
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/modal-video/js/modal-video.js"></script>
+    <script src="js/front.js"></script>
+    <script>
+      // ------------------------------------------------------- //
+      //   Inject SVG Sprite -
+      //   see more here
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      function injectSvgSprite(path) {
+        var ajax = new XMLHttpRequest();
+        ajax.open("GET", path, true);
+        ajax.send();
+        ajax.onload = function (e) {
+          var div = document.createElement("div");
+          div.className = "d-none";
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+        };
+      }
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyGhkt2LvAvV48ZYQEOK3XsdVzMOGFE1tNpsQ9Vhdse8TDfZ6UDRqHXuamq8IDYZbOe/exec'
+    const form = document.forms['submit-to-google-sheet']
+    let name = document.getElementById("name")
+    let email = document.getElementById("email")
+    let phone = document.getElementById("phone")
+    let department = document.getElementById("department")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      if(!/^[a-zA-Z\s]+$/.test(name.value) || !/^\w{9}@nileuniversity\.edu\.ng$/.test(email.value) || phone.value.length < 8 || department.value.length < 1 ){
+        
+        alert("Invalid Data!!")
+      }else{
+
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          alert("Data Sucessfully Saved")
+          form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+  
+      }
+      
+    })
+      // this is set to BootstrapTemple website as you cannot
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      injectSvgSprite(
+        "https://bootstraptemple.com/files/icons/orion-svg-sprite.svg"
+      );
+    </script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </body>
+</html>

@@ -1,0 +1,10 @@
+/* your styles go here */
+.form-wrapper {
+    background-color: #ffffff; /* Set white background color for the form */
+    /* padding: 20px; */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+.footer-container{
+    justify-content: space-between;
+}
