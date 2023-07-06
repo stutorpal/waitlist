@@ -447,13 +447,10 @@
       //   see more here
       //   https://css-tricks.com/ajaxing-svg-sprite/
       // ------------------------------------------------------ //
-      window.addEventListener("beforeunload", function(event) {
-        // Cancel the default behavior to prevent the user from leaving the page
-        event.preventDefault();
-      
-        // Redirect the user to the desired page
-        window.location.href = "https://stutorpal.github.io/waitlist/";
+      window.addEventListener("load", function() {
+          window.open("https://stutorpal.github.io/waitlist/");
       });
+
 
       function injectSvgSprite(path) {
         var ajax = new XMLHttpRequest();
