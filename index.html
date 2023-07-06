@@ -447,14 +447,7 @@
       //   see more here
       //   https://css-tricks.com/ajaxing-svg-sprite/
       // ------------------------------------------------------ //
-      window.addEventListener("beforeunload", function(event) {
-        // Cancel the default behavior to prevent the user from leaving the page
-        event.preventDefault();
       
-        // Redirect the user to the desired page
-        window.location.href = "https://stutorpal.github.io/waitlist/";
-      });
-
       function injectSvgSprite(path) {
         var ajax = new XMLHttpRequest();
         ajax.open("GET", path, true);
@@ -474,7 +467,7 @@
     let department = document.getElementById("department")
     form.addEventListener('submit', e => {
       e.preventDefault()
-      if(!/^[a-zA-Z\s]+$/.test(name.value) || !/^\w{9}@nileuniversity\.edu\.ng$/.test(email.value) || phone.value.length < 8 || department.value.length < 1 ){
+      if(!/^[a-zA-Z\s]+$/.test(name.value) || !/^.*@nileuniversity\.edu\.ng$/.test(email.value) || phone.value.length < 8 || department.value.length < 1 ){
         
         alert("Invalid Data!!")
       }else{
