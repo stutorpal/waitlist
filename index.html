@@ -471,7 +471,7 @@
     let department = document.getElementById("department")
     form.addEventListener('submit', e => {
       e.preventDefault()
-      if(!/^[a-zA-Z\s]+$/.test(name.value) || !/^\w{9}@nileuniversity\.edu\.ng$/.test(email.value) || phone.value.length < 8 || department.value.length < 1 ){
+      if(!/^[a-zA-Z\s]+$/.test(name.value) || !/^.*@nileuniversity\.edu\.ng$/.test(email.value) || phone.value.length < 8 || department.value.length < 1 ){
         
         alert("Invalid Data!!")
       }else{
